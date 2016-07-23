@@ -77,4 +77,8 @@ public class BarChart extends Application {
 		vBox.getChildren().addAll(t, r);
 		return vBox;
 	}
+    public static void main(String[] args) {
+        Application.launch(args);
+
+    }
 }
