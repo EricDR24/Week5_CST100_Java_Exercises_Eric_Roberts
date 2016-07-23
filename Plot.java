@@ -21,12 +21,16 @@ public class Plot extends Application {
     private static double HEIGHT = 200;
     private static double CENTER_X = WIDTH / 2;
     private static double CENTER_Y = HEIGHT / 2;
-
+    
+    
+    //Override Start Method
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Pane pane = new Pane();
+        
+    	//create pane
+    	Pane pane = new Pane();
 
-
+    	//create polyline
         Polyline xAxis = new Polyline();
         drawXAxis(pane, xAxis);
         Polyline yAxis = new Polyline();
